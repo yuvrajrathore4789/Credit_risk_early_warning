@@ -1,0 +1,21 @@
+# environments / caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+
+# data and generated artifacts (reproduce with `python train.py`)
+data/*.csv
+data/*.xls
+data/*.xlsx
+data/*.db
+models/*.joblib
+outputs/*
+!outputs/.gitkeep
+
+# secrets
+.env
+.streamlit/secrets.toml

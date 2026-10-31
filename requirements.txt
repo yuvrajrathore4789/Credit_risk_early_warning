@@ -1,0 +1,15 @@
+# Compatible ranges. Developed and tested on Python 3.13 with:
+# pandas 3.0, numpy 2.5, scikit-learn 1.9, xgboost 3.4, shap 0.54, SQLAlchemy 2.1,
+# streamlit 1.66, plotly 7.1, matplotlib 3.11, joblib 1.6, pytest 9.1
+pandas>=2.2.2,<4
+numpy>=1.26,<3
+scikit-learn>=1.5,<2
+xgboost>=2.0,<4
+shap>=0.46,<1
+SQLAlchemy>=2.0,<2.2
+matplotlib>=3.8,<4
+plotly>=5.20,<8
+streamlit>=1.50,<2
+joblib>=1.3,<2
+openpyxl>=3.1,<4   # only needed to read the original UCI .xls/.xlsx file
+pytest>=8,<10
